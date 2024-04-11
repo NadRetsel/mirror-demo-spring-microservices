@@ -2,7 +2,10 @@
 
 A Spring Boot demo project to familiarise the microservices architecture.
 
-## product-service
+
+## microservice-parent
+
+### product-service
 
 
 - Spring Boot framework
@@ -12,15 +15,19 @@ A Spring Boot demo project to familiarise the microservices architecture.
   - Used for automated integration tests 
   - Requires Docker - not currently working
 
-## order-service
+### order-service
 
 - Spring Boot framework
 - ApacheMaven
 - MySQL
 
 
-## inventory-service
+### inventory-service
 
 - Spring Boot framework
 - Apache Maven
 - MySQL
+
+
+## microservice-new
+A Maven multi-module version of the project.
