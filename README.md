@@ -1,14 +1,26 @@
 # demo-spring-microservices
 
-Creating a Springboot project that uses the microservices architecture. <br/>
-Uses Maven instead of Gradle.
-
+A Spring Boot demo project to familiarise the microservices architecture.
 
 ## product-service
 
-Using MongoDB.
 
+- Spring Boot framework
+- Apache Maven
+- MongoDB
+- Testcontainers framework 
+  - Used for automated integration tests 
+  - Requires Docker - not currently working
 
 ## order-service
 
-Using MySQL.
+- Spring Boot framework
+- ApacheMaven
+- MySQL
+
+
+## inventory-service
+
+- Spring Boot framework
+- Apache Maven
+- MySQL
