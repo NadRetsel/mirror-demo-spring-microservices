@@ -21,12 +21,12 @@ public class InventoryServiceApplication {
 		return args ->
 		{
 			Inventory inventory1 = Inventory.builder()
-					.skuCode("iPhone_13_Pro")
+					.skuCode("iphone-13-pro")
 					.quantity(100)
 					.build();
 
 			Inventory inventory2 = Inventory.builder()
-					.skuCode("iPhone_13_Pro_Max")
+					.skuCode("iphone-13-pro-max")
 					.quantity(0)
 					.build();
 
