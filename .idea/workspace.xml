@@ -5,8 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404cbc29-fd1f-485e-9c98-c343a6bf038e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-parent/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/order/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/orderlineitems/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/model/OrderLineItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/orderlineitems/OrderLineItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/dto/OrderLineItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-new/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/inventory-service/src/main/java/com/example/inventoryservice/inventory/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/inventory-service/src/main/java/com/example/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/order/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/orderlineitems/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/model/OrderLineItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/order-service/src/main/java/com/example/orderservice/orderlineitems/OrderLineItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/order-service/src/main/java/com/example/orderservice/dto/OrderLineItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/main/java/com/example/productservice/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-new/product-service/src/main/java/com/example/productservice/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-parent/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-parent/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,22 +53,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPENED",
-    "assignee": {
-      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
-      "username": "dsalvadortekion",
-      "fullname": "Dan Lester Salvador"
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;dsalvadortekion&quot;,
+      &quot;fullname&quot;: &quot;Dan Lester Salvador&quot;
     }
   }
-}]]></component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "first": "https://gitlab.com/dsalvadortekion/demo-spring-microservice.git",
-    "second": "57021af4-322a-44d4-94d3-0a29d444db22"
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/dsalvadortekion/demo-spring-microservice.git&quot;,
+    &quot;second&quot;: &quot;57021af4-322a-44d4-94d3-0a29d444db22&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,19 +84,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/dsalvador/Documents/Personal Projects/Spring Microservice Demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Users/dsalvador/Documents/Personal Projects/Spring Microservice Demo/microservices-new/product-service",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\dsalvador\Documents\Personal Projects\Spring Microservice Demo\microservices-new\product-service" />
+      <recent name="D:\Users\dsalvador\Documents\Personal Projects\Spring Microservice Demo\microservices-new\order-service" />
+      <recent name="D:\Users\dsalvador\Documents\Personal Projects\Spring Microservice Demo\microservices-new\inventory-service" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

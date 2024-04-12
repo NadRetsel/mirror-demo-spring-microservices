@@ -1,9 +1,7 @@
 package com.example.productservice;
 
-import com.example.productservice.product.Product;
-import com.example.productservice.product.ProductDTO;
-import com.example.productservice.product.ProductRepository;
-import com.example.productservice.product.ProductResponse;
+import com.example.productservice.dto.ProductDTO;
+import com.example.productservice.repository.ProductRepository;
 import com.mongodb.assertions.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +15,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.testcontainers.containers.MongoDBContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
-import org.testcontainers.shaded.com.fasterxml.jackson.core.JsonProcessingException;
 import org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.math.BigDecimal;
