@@ -32,41 +32,4 @@ A Spring Boot demo project to familiarise the microservices architecture.
 ## microservice-new
 A Maven multi-module version of the project.
 
-
-### product-service
-
-- Spring Boot framework
-- Apache Maven
-- MongoDB
-- Testcontainers framework
-  - Used for automated integration tests
-  - Requires Docker - not currently working
-- Netflix Eureka
-
-### order-service
-
-- Spring Boot framework
-- ApacheMaven
-- MySQL
-- Spring Webflux
-- Netflix Eureka
-
-
-### inventory-service
-
-- Spring Boot framework
-- Apache Maven
-- MySQL
-- Netflix Eureka
-
-
-### discovery-server
-
-- Spring Boot
-- Netflix Eureka
-
-
-### api-gateway
-
-- Netflix Eureka
-- Spring Cloud Gateway
+Break down of the tech stack and list of technologies used in each service can be found [here](./microservices-new).
