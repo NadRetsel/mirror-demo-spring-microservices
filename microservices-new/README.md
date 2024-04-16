@@ -17,10 +17,11 @@ Service to request products.
 - Apache Maven
 - MongoDB
 - Testcontainers framework
-  - Used for automated integration tests
-  - Requires Docker - not currently working
+  > Used for automated integration tests.
+  >
+  > *Requires Docker - not currently working*
 - Spring Cloud Netflix Eureka
-  - Used for service discovery
+  > Used to be discovered by `discovery-server`.
 
 ## order-service
 Service to place orders of products.
@@ -30,6 +31,8 @@ Service to place orders of products.
 - MySQL
 - Spring Webflux
 - Spring Cloud Netflix Eureka
+- Resilience4J Circuit Breaker
+  > Used to implement the Circuit Breaker pattern to interrupt requests to failed services.
 
 
 ## inventory-service
@@ -46,6 +49,7 @@ Service to find IP address of multiple instances of other services.
 
 - Apache Maven
 - Spring Cloud Netflix Eureka
+  > Used to find instances of the client services.
 - Spring Boot Security
 
 
@@ -56,4 +60,4 @@ Service to route requests to the corresponding service.
 - Spring Cloud Netflix Eureka
 - Spring Cloud Gateway
 - Keycloak 
-  - Used for security authorisation
+  > Used for security authorisation
