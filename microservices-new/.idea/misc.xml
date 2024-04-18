@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-original/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-server-new/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-server-original/pom.xml" />
       </list>
     </option>
   </component>

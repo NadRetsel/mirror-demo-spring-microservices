@@ -8,6 +8,25 @@ A Maven multi-module version of the project to familiarise with the microservice
 - MongoDB
 - MySQL
 - Keycloak (requires JDK 17+)
+  > To run Keycloak locally: <br>
+  > `cd PATH-TO\keycloak\` <br>
+  > `.\bin\kc.bat start-dev` <br>
+  >
+  > Port can be chosen with: <br>
+  > `.\bin\kc.bat start-dev --http-port=8181`, <br>
+  > or adding `http-port=8181` to  `.\conf\keycloak.conf` 
+
+- Zipkin (requires JDK 17+)
+  >   Installation guide: https://zipkin.io/pages/quickstart <br>
+  >
+  > To prepare Zipkin locally: <br>
+  > `git clone https://github.com/openzipkin/zipkin` <br>
+  > `cd zipkin` <br> 
+  > `./mvnw -T1C ~~-q --batch-mode -DskipTests --also-make -pl zipkin-server clean package` <br>
+  >
+  > To run Zipkin locally: <br>  
+  > *(Normal server)* `java -jar ./zipkin-server/target/zipkin-server-3.3.1-SNAPSHOT-exec.jar` <br>
+  > *(Slim server)* `java -jar ./zipkin-server/target/zipkin-server-*slim.jar`
 
 
 ## product-service
