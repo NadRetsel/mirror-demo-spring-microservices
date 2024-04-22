@@ -23,7 +23,7 @@ public class InventoryService {
     public List<InventoryResponse> isInStock(List<String> skuCode)
     {
         log.info("Wait started");
-        Thread.sleep(10000);
+        // Thread.sleep(10000);
         log.info("Wait ended");
 
         return this.inventoryRepository.findBySkuCodeIn(skuCode)
