@@ -7,7 +7,6 @@ A Spring Boot demo project to familiarise the microservices architecture.
 
 ### product-service
 
-
 - Spring Boot framework
 - Apache Maven
 - MongoDB

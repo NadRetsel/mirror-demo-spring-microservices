@@ -2,7 +2,10 @@
 # microservice-new
 A Maven multi-module version of the project to familiarise with the microservices architecture.  
 
-The demo project was created on a VDI without access to install Docker, so each service is run locally on a set port.
+The demo project was created on a VDI without access to install Docker, so each service is run locally on a set port.  
+
+There are issues running Apache Kafka locally with *Windows Command Prompt / Power Shell*, so it is recommended to use *Git Bash* instead. Zookeeper can be run separately with *Windows CP / PS*, or run the version bundled with Kafka using *Git Bash*.
+
 
 **Pre-requisites:**  
 - JDK 17+
@@ -17,7 +20,7 @@ The demo project was created on a VDI without access to install Docker, so each 
 
     > **Running Keycloak locally**  
     > - Go to the directory  
-        `cd [...]/keycloak`  
+        `cd [...]/keycloak-24.0.2`  
     > - Run the service  
         `./bin/kc.bat start-dev`  
 
@@ -45,7 +48,7 @@ The demo project was created on a VDI without access to install Docker, so each 
         `cd [...]/zipkin`
     > - Start a normal server  
         `java -jar ./zipkin-server/target/zipkin-server-3.3.1-SNAPSHOT-exec.jar`  
-        *(Note: `zipkin-server` may be a different version)*  
+        *(Note: `zipkin-server-*.jar` may be a different version)*  
     > - Or, start a slim server  
         `java -jar ./zipkin-server/target/zipkin-server-*slim.jar`
   
@@ -67,16 +70,25 @@ The demo project was created on a VDI without access to install Docker, so each 
     > 
     > To change the server port, add `admin.serverPort=9876` to `./conf/zoo.cfg`
   
-  - Apache Kafka
+    - Apache Kafka
     > **Installation guide:**  
-      https://kafka.apache.org/quickstart  
+        https://kafka.apache.org/quickstart  
 
-    > **Running Kafka locally**
-    > - Run Zookeeper as above  
+    > **Running Kafka locally with**
+    > - Run Zookeeper as above, or run through Kafka (with *Git Bash*) with  
+        `./bin/zookeeper-server-start.sh ./config/zookeeper.properties` 
+    > - Open the *Git Bash* shell (will not work with *Windows Command Prompt / Power Shell*)
     > - Go to the directory  
-        `cd [...]/kafka_2.13-3.7.0`
+          `cd [...]/kafka_2.13-3.7.0`
     > - Start the server  
-        `./bin/kafka-server-start.sh config/server.properties`
+          `./bin/kafka-server-start.sh ./config/server.properties`
+    
+    > ***IMPORTANT***  
+      Kafka needs to be run with *Git Bash*, NOT *Windows Command Prompt / Power Shell*.  
+    >   
+    > If you really need to run with *Windows CP / PS*, the `kafka_*` directory MUST be in `C:\kafka_*` and run with `.\bin\windows\kafka-server-start.bat .\config\server.properties`.  
+    > 
+    > Trying to run the command while the directory is in `C:\...\ExampleDirectory\kafka_*` will result in a `The input line is too long.` error due to path name being too long.
 
   - Prometheus
     > **Installation guide**  
